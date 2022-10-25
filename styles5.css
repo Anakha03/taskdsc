@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding-top: 80px;
+    background-color:black;
+    
+}
+h1{
+    color: aqua;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 65px;
+    letter-spacing: 15px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+    align-items: center;
+    margin:30px 40px 30px 40px;
+}
+
+
+.logo:hover{
+    
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;
+}
+
+
+@media screen and (max-width:60) {
+    .container{
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+}
